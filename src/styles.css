@@ -1,0 +1,30 @@
+.page { min-height: 100vh; background: #f1f5f9; }
+.container { max-width: 480px; margin: 0 auto; padding: 16px; padding-bottom: 88px; }
+.card { background: #fff; border-radius: 24px; padding: 16px; margin-bottom: 14px; box-shadow: 0 2px 12px rgba(15,23,42,.06); }
+.header { position: sticky; top: 0; z-index: 10; }
+h1,h2 { margin: 0 0 8px; }
+label { display:block; margin: 10px 0 6px; font-size: 14px; color: #334155; }
+input, select, button { width: 100%; min-height: 46px; border-radius: 16px; border: 1px solid #cbd5e1; padding: 10px 12px; background: white; }
+button { cursor: pointer; }
+button.primary { background: #2563eb; color: #fff; border: none; font-weight: 600; }
+button.ghost { width: auto; min-height: 38px; background: #f8fafc; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.row { display: flex; gap: 8px; align-items: center; }
+.between { justify-content: space-between; }
+.muted { color: #64748b; }
+.small { font-size: 13px; }
+.summary-box { background: #f8fafc; padding: 14px; border-radius: 18px; margin: 12px 0; }
+.pill { background: #f8fafc; padding: 10px 12px; border-radius: 16px; }
+.allowance { background: #ecfdf5; padding: 12px; border-radius: 16px; margin-top: 12px; }
+.mini { margin-top: 12px; }
+.stat .big { font-size: 24px; font-weight: 700; margin-top: 8px; }
+.month { background: #f8fafc; border-radius: 16px; padding: 12px; margin-top: 10px; }
+.mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; font-size: 14px; color: #334155; }
+.bottom-nav { position: fixed; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,.97); backdrop-filter: blur(8px); border-top: 1px solid #e2e8f0; padding: 10px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; max-width: 480px; margin: 0 auto; }
+.nav { background: #fff; }
+.nav.active { background: #2563eb; color: white; border-color: #2563eb; }
+.error { background: #fef2f2; color: #b91c1c; padding: 12px; border-radius: 16px; margin: 8px 0; }
+.center { min-height: 100vh; display:flex; align-items:center; justify-content:center; color:#64748b; background:#f1f5f9; }
+@media (max-width: 420px) { .grid3 { grid-template-columns: 1fr; } }
